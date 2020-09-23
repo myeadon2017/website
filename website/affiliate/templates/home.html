@@ -1,1 +1,221 @@
-<h1>This is my homepage!!</h1>
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Treadmill Deals!</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{% static 'affiliate/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{% static 'affiliate/css/modern-business.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Treadmill Deals</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Privacy Policy</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('{% static 'affiliate/images/2redo.jpg' %}')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Treadmills Deals!</h3>
+            <p>Find the lowest Treadmill prices online!</p>
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('{% static 'affiliate/images/1redo.jpg' %}')">
+        
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('{% static 'affiliate/images/3redo.jpg' %}')">
+          
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Portfolio Section -->
+    <h1 class="my-4">Treadmill Deals...</h1>
+
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://www.amazon.com/dp/B07H162988"><img class="card-img-top" src="{% static 'affiliate/images/t1.jpg' %}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://www.amazon.com/dp/B07H162988">NordicTrack T Series Treadmill</a>
+            </h4>
+            <p class="card-text">Your purchase includes: NordicTrack T Series Treadmill 7.5S + 1-year iFit membership
+                Review the instructions regarding your iFit program to redeem your one year iFit membership</p>
+                <a href="https://www.amazon.com/dp/B07H162988" class="btn btn-secondary">$2,899</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://www.amazon.com/dp/B00OS9R9VW"><img class="card-img-top" src="{% static 'affiliate/images/t2.jpg' %}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://www.amazon.com/dp/B00OS9R9VW">Sunny Health & Fitness Folding Treadmill with Device Holder, Shock Absorption and Incline</a>
+            </h4>
+            <p class="card-text">20 peak HP drive system provides speeds of 0. 5 - 9 MPH along with 3 manual options for adjusting incline levels.
+                Designed for a max user weight of 220 pounds with 49L x 15. 5W inches of running surface
+                </p>
+                <a href="https://www.amazon.com/dp/B00OS9R9VW" class="btn btn-secondary">$427</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://www.amazon.com/dp/B01NCUO4E9"><img class="card-img-top" src="{% static 'affiliate/images/t3.jpg' %}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://www.amazon.com/dp/B01NCUO4E9">Sunny Health & Fitness SF-T7515 Smart Treadmill with Auto Incline, Sound System, Bluetooth and Phone Function</a>
+            </h4>
+            <p class="card-text">Quick Button Auto Incline
+                12 levels of incline: 0% to 12% incline
+                3 countdown modes: Time Speed and Calories
+                Speed Range: 1 - 8 miles per hour</p>
+                <a href="https://www.amazon.com/dp/B01NCUO4E9" class="btn btn-secondary">$505</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://www.amazon.com/dp/B01M0L0D90"><img class="card-img-top" src="{% static 'affiliate/images/t4.jpg' %}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://www.amazon.com/dp/B01M0L0D90">XTERRA Fitness TR150 Folding Treadmill Black</a>
+            </h4>
+            <p class="card-text">Large 16" X 50" Walking/running surface
+                Large 5 inch LCD display is easy to read and keeps you updated on speed, incline, time, distance, calories, and pulse</p>
+                <a href="https://www.amazon.com/dp/B01M0L0D90" class="btn btn-secondary">$391</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://www.amazon.com/dp/B07FSYZVTZ"><img class="card-img-top" src="{% static 'affiliate/images/t5.jpg' %}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://www.amazon.com/dp/B07FSYZVTZ">SereneLife Smart Digital Folding Treadmill - Electric Foldable Exercise Fitness Machine, Large Running Surface, 3 Incline Settings, 16 Preset Program, Sports App for Running & Walking (SLFTRD25)</a>
+            </h4>
+            <p class="card-text">SPORTS APP CONNECTION: Links to FitShow sports app to make boring exercise routines to exciting fitness sessions. The app is available for iOS & Android & works with various devices such as phones, laptops & tablets via Bluetooth connectivity</p>
+            <a href="https://www.amazon.com/dp/B07FSYZVTZ" class="btn btn-secondary">$431</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://www.amazon.com/dp/B01NBWU4CX"><img class="card-img-top" src="{% static 'affiliate/images/t6redo.jpg' %}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://www.amazon.com/dp/B01NBWU4CX">Best Choice Products 800W Portable Folding Electric Motorized Treadmill Machine with Rolling Wheels</a>
+            </h4>
+            <p class="card-text">AUTOMATIC/MANUAL SPEED SETTINGS: Conveniently switch between preset speeds of 0.5, 2, 4, 5.5, and 7.5 mph, or adjust via -/+ push buttons for more options
+                ($269 value)</p>
+                <a href="https://www.amazon.com/dp/B01NBWU4CX" class="btn btn-secondary">$268</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <!-- Features Section -->
+    <!-- <div class="row">
+      <div class="col-lg-6">
+        <h2>Modern Business Features</h2>
+        <p>The Modern Business template by Start Bootstrap includes:</p>
+        <ul>
+          <li>
+            <strong>Bootstrap v4</strong>
+          </li>
+          <li>jQuery</li>
+          <li>Font Awesome</li>
+          <li>Working contact form with validation</li>
+          <li>Unstyled page elements for easy customization</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
+      </div>
+    </div> -->
+    <!-- /.row -->
+
+    <hr>
+
+    <!-- Call to Action Section -->
+    <div class="row mb-4">
+      <div class="col-md-8">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+      </div>
+      <div class="col-md-4">
+        <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
+      </div>
+    </div>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static 'affiliate/vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'affiliate/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+</body>
+
+</html>
